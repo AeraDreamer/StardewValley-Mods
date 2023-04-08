@@ -1,0 +1,28 @@
+{
+    "Name": "Queen of Sauce Cookbook",
+    "Author": "AeraDreamer",
+    "Version": "1.5.0",
+    "Description": "Adds the Queen of Sauce Cookbook and some quests about the recipes",
+    "MinimumApiVersion": "3.6.0",    
+    "UniqueID": "AeraDreamer.QueenOfSauceCookbook",    
+    "UpdateKeys": [ "Nexus:15864" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+     },
+    "Dependencies": 
+    [
+      {
+         "UniqueID": "spacechase0.JsonAssets",
+         "IsRequired": true
+      },
+      {
+         "UniqueID": "AeraDreamer.QueenOfSauceCookbook-JA",
+         "IsRequired": true
+      },
+      {
+         "UniqueID": "AeraDreamer.QueenOfSauce-MFM",
+         "IsRequired": true
+      }
+
+   ]
+  }

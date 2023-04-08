@@ -1,0 +1,13 @@
+{
+  "Name": "QueenOfSauceCookbook",
+  "Description": "Add the Queen of Sauce Cookbook to the game.",
+  "Author": "AeraDreamer",
+  "Version": "1.4.0",
+  "UniqueID": "AeraDreamer.QueenOfSauceCookbook-JA",
+  "UpdateKeys": [ "Nexus:15864" ],
+  "ContentPackFor": 
+    {
+      "UniqueID": "spacechase0.JsonAssets"
+    }
+
+}

@@ -1,0 +1,187 @@
+{
+	"config.Available.name": "Disponível",
+	"config.Available.description": "Escolha quando o Livro de Receitas Secreto estará disponível para venda. A partir do 3º ano é o padrão.",
+	"config.Available.values.from Year 1": "a partir do 1º ano",
+	"config.Available.values.from Year 3": "a partir do 3º ano",
+	"config.Available.default": "a partir do 3º ano",
+	"config.section.Queen of Sauce Cookbook.name": "Receitas da Rainha do Molho",
+
+	"QoSc.name" : "Receitas da Rainha do Molho",
+	"QoSc.description": "Coleção de receitas do livro de receitas secreto da Rainha do Molho.",
+
+	"QoSe.name": "Receitas da Rainha do Molho=",
+	"QoSe.description": "Esta é a Edição Exclusiva da coleção de receitas do livro secreto da Rainha do Molho! Livro em capa dura e autografado.",
+	
+	"Mail-Presell": "Pré-venda do Livro de Receitas Secretas da Rainha do Molho",
+    "Mail-Presell.Text": "Estimado(a) cliente, ^^Só o Armazém do Pierre, através de uma importante e única negociação, traz para você, antecipadamente a Edição Exclusiva do livro de Receitas Secreto da Rainha do Molho. ^^Se você quer conhecer as receitas antes de qualquer outro, não perca essa oportunidade. ^- Pierre ^^  Vendidos aos Sábados, Terças e Sextas-feiras.",
+
+    "Mail-Promo": "Receitas Secretas da Rainha do Molho - Em uma loja perto de você",
+    "Mail-Promo.Text": "Olá, @, ^^O Livro de Receitas Secreto da Rainha do Molho já está a venda na loja do Pierre! ^^Se você perdeu alguma das receitas apresentadas no programa de TV, essa é a sua chance de conhecê-las sem ter que esperar as reprises. ^^- Pierre^^ A Edição Exclusiva será vendida apenas aos Sábados, Terças e Sextas-feiras, enquando durarem os estoques.",
+
+	"Mail-Exclusive":"Receitas Secretas da Rainha do Molho - Edição Exclusiva",
+	"Mail-Exclusive.Text":"Oi, @! ^^Só o Armazém do Pierre, através de uma importante e única negociação, traz para você a Edição Exclusiva do livro de Receitas da Rainha do Molho. ^^Temos apenas alguns exemplares para a venda! Corra para não perder essa chance. ^- Pierre ^^  Vendidos aos Sábados, Terças e Sextas-feiras.",	
+
+	"606.title": "Refogado",
+	"606.flavor": "Leah quer testar a nova receita!",
+	"606.hint": "Entregue à Leah 2 cenouras subterrâneas",
+	"606.reaction": "Muito obrigada! Tenho tantas esperanças para essa receita! Eu sinto que eu vou amar esse prato!",
+
+	"648.title": "Salada de Repolho",
+	"648.flavor": "Maru vai fazer uma receita saudável para o Harvey.",
+	"648.hint": "Entregue à Maru 1 Maionese",
+	"648.reaction": "Melhor pôr na geladeira! Obrigada!",
+
+	"609.title": "Salada de Rabanete",
+	"609.flavor": "Harvey quer que você cozinhe uma refeição saudável para dar mais energia à Evelyn.",
+	"609.hint": "Entregue ao Harvey 1 Salada de Rabanete",
+	"609.reaction": "Me deu até vontade de comer tudo sozinho!",
+
+	"195.title": "Omelete",
+	"195.flavor": "Gus quer provar sua omelete para comparar receitas.",
+	"195.hint": "Entregue ao Gus 1 Omelete",
+	"195.reaction": "Interessante. E a qualidade dos ingredientes! Quando eu for fazer minha super omelete, espero que você possa me fornecer alguns ovos...",
+
+	"198.title": "Peixe Cozido",
+	"198.flavor": "Lewis quer fazer um jantar especial e precisa de alguns peixes.",
+	"198.hint": "Entregue ao Lewis 2 Bremas",
+	"198.reaction": "Que bom! Obrigado, @!",
+
+	"211.title": "Panquecas",
+	"211.flavor": "Vincent quer surpreender Jodi",
+	"211.hint": "Entregue ao Vincent 1 prato de Panquecas",
+	"211.reaction": "Obrigado! Mamãe vai adorar!",
+
+	"228.title": "Rolinhos de Arroz",
+	"228.flavor": "Robin quer tentar fazer Rolinhos de Arroz para Sebastian.",
+	"228.hint": "Entregue à Robin 4 Algas-marinhas",
+	"228.reaction": "Vamos ver se ele gosta desses Rolinhos de Arroz",
+
+	"216.title": "Pão",
+	"216.flavor": "Jodi precisa alimentar os garotos.",
+	"216.hint": "Entregue a Jodi 10 Pães",
+	"216.reaction": "Obrigada, @! ^Isso irá me ajudar muito!",
+
+	"229.title": "Tortilha",
+	"229.flavor": "Linus ofereceu trocar Milho por Tacos de Peixe.",
+	"229.hint": "Entregue ao Linus 2 Milhos",
+	"229.reaction": "Vou fazer os Tacos e te dar um! Obrigado!",
+
+	"219.title": "Sopa de Truta",
+	"219.flavor": "George está com vontade de comer sopa de truta, mas falta a truta.",
+	"219.hint": "Entregue ao George 1 Truta arco-íris",
+	"219.reaction": "Finalmente! Agora onde está o Alex?",
+
+	"208.title": "Inhames com Cobertura",
+	"208.flavor": "Marnie precisa de inhames para fazer uma sobremesa.",
+	"208.hint": "Entregue à Marnie 3 Inhames",
+	"208.reaction": "Sabia que podia contar com você!",
+
+	"605.title": "Molho de Alcachofra",
+	"605.flavor": "Clint precisa de alcachofras para sua receita.",
+	"605.hint": "Entregue ao Clint 2 Alcachofras",
+	"605.reaction": "Obrigado. Fico muito feliz de você ter me ajudado.",
+
+	"604.title": "Pudim de Ameixa",
+	"604.flavor": "Shane quer dar um agrado para sua afilhada.",
+	"604.hint": "Entregue a Shane 1 Pudim de Ameixa",
+	"604.reaction": "Perfeito! Jas vai adorar.",
+
+	"220.title": "Bolo de Chocolate",
+	"220.flavor": "Evelyn quer que você asse um bolo para ela.",
+	"220.hint": "Entregue à Evelyn 1 Bolo de Chocolate",
+	"220.reaction": "Muito obrigada, meu bem!",
+
+	"608.title": "Torta de Abóbora",
+	"608.flavor": "Jas está planejando surpreender Marnie.",
+	"608.hint": "Entregue à Jas 1 Abóbora",
+	"608.reaction": "Tia Marnie vai adorar!",
+
+	"612.title": "Doce de Oxicoco",
+	"612.flavor": "Sebastian pensou em um bom presente para Vincent.",
+	"612.hint": "Entregue ao Sebastian 1 Doce de Oxicoco",
+	"612.reaction": "Isso mesmo! Ele vai amar!",
+
+	"206.title": "Pizza",
+	"206.flavor": "Pam quer comer Pizza com muito queijo.",
+	"206.hint": "Entregue à Pam 1 Pizza",
+	"206.reaction": "É bom ter bastante queijo extra!",
+
+	"210.title": "Batata-palha",
+	"210.flavor": "George pediu por um prato de acompanhamento.",
+	"210.hint": "Entregue ao George 1 prato de Batata-palha.",
+	"210.reaction": "Aposto que isso com arroz é uma delícia!",
+
+	"201.title": "Café da Manhã Completo",
+	"201.flavor": "Alex quer um café da manhã bem forte para se preparar para um treino.",
+	"201.hint": "Entregue ao Alex 1 Café da Manhã Completo",
+	"201.reaction": "Excelente! Será um treino puxado!",
+
+	"204.title": "Almoço da Sorte",
+	"204.flavor": "Caroline quer tentar a sorte com o almoço.",
+	"204.hint": "Entregue à Caroline 1 Pepino-do-mar",
+	"204.reaction": "Não são muito bonitos, não é?! Muito obrigada, @!",
+
+	"209.title": "Carpa-Surpresa",
+	"209.flavor": "Pierre quer comer peixes.",
+	"209.hint": "Entregue ao Pierre 1 prato de Carpa-Surpresa",
+	"209.reaction": "Ótimo. Pena que não se pode plantar peixes, não é?",
+
+	"731.title": "Pão de Ácer",
+	"731.flavor": "Sam se ofereceu para comprar os Pães de Ácer que você assar",
+	"731.hint": "Entregue ao Sam 4 Pães de Ácer",
+	"731.reaction": "Ah, @! Você é demais!",
+
+	"221.title": "Bolo Rosa",
+	"221.flavor": "Haley precisa de ingredientes para o bolo.",
+	"221.hint": "Entregue à Haley 1 Melão",
+	"221.reaction": "Isso! Agora posso fazer meu bolo!",
+
+	"607.title": "Avelãs Torradas",
+	"607.flavor": "Emily quer um prato de Avelãs Torradas",
+	"607.hint": "Entregue à Emily 1 prato de Avelãs Torradas",
+	"607.reaction": "Obrigada, @!",
+
+	"610.title": "Salada de Fruta",
+	"610.flavor": "Demetrius quer outra fruta para pôr em sua salada.",
+	"610.hint": "Entregue ao Demetrius 1 Melão",
+	"610.reaction": "A fruta que faltava. ^Eu colocaria tomates, mas a Robin não concordaria...",
+
+	"611.title": "Mexido de Amoras",
+	"611.flavor": "Abigail pediu um bolo Mexido de Amoras",
+	"611.hint": "Entregue à Abigail 1 Mexido de Amoras",
+	"611.reaction": "Oh, uau! Parece uma delícia!",
+
+	"732.title": "Bolinhos de Caranguejo",
+	"732.flavor": "Elliott quer comida para atrair suas musas inspiradoras",
+	"732.hint": "Entregue ao Elliott 2 Bolinhos de caranguejo",
+	"732.reaction": "Parece bom, vamos ver se funciona.",
+
+	"649.title": "Risoto de Broto de Samambaia",
+	"649.flavor": "Clint quer uma refeição não muito fácil de fazer.",
+	"649.hint": "Entregue ao Clint 1 Risoto de Broto de Samambaia",
+	"649.reaction": "Muito obrigado, @!",
+
+	"651.title": "Bolinho de Papoula",
+	"651.flavor": "O Forno de Penny está com problemas.",
+	"651.hint": "Entregue à Penny 1 Bolinho de Papoula",
+	"651.reaction": "Que cheirinho bom! Parece uma delícia, obrigada!",
+
+	"730.title": "Bisque de Lagosta",
+	"730.flavor": "Willy quebrou seu covo e precisa de um Lagosta",
+	"730.hint": "Entregue ao Willy 1 Lagosta",
+	"730.reaction": "Que belezas! Obrigado, @!",
+
+	"618.title": "Brusqueta",
+	"618.flavor": "Jodi quer fazer um café da manhã diferente.",
+	"618.hint": "Entregue à Jodi 4 Pães",
+	"618.reaction": "Acho que todos os meus meninos vão gostar!",
+
+	"733.title": "Coquetel de Camarão",
+	"733.flavor": "Lewis quer levar aperitivos de classe para algum lugar",
+	"733.hint": "Entregue ao Lewis 6 Coquetéis de Camarão",
+	"733.reaction": "Ótimo, Ótimo. Obrigado.",
+
+	"Qos.BookBoughtPresell": "message \"Eu mal posso esperar para ver essas receitas...\"",
+	"Qos.BookBought": "message \"Eu mal posso esperar para ver as receitas que eu ainda não conheço...\"",
+	"Qos.BookLearned": "message \"Tantas receitas maravilhosas... Eu tenho que fazer todas!\""
+}

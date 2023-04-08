@@ -1,0 +1,24 @@
+{
+    "Name": "Queen of Sauce Exclusive Edition",
+    "Price": 25000,
+    "Description": "= A one time deal! =" ,
+    "Category": "Cooking",
+    "Edibility": -300,
+    "IsDefault": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+    "PurchasePrice": 30000,
+    "PurchaseRequirements": ["k 158640000","e 158649000", "d Sun", "d Mon", "d Wed", "d Thu"],
+    "ContextTags": 
+    [
+        "color_cyan"
+    ],
+     "GiftTastes":
+    {
+        "Love": [ "Caroline", "Emily", "Evelyn", "Gus", "Haley", "Jodi", "Marnie", "Pierre", "Sandy" ],
+        "Like": [ "Clint", "Demetrius", "Elliott", "Lewis", "Linus", "Robin", "Shane", "Willy"],
+        "Neutral": ["George", "Harvey", "Kent", "Leah", "Maru", "Pam", "Penny"],
+        "Dislike": ["Abigail", "Alex", "Jas", "Leo", "Sam", "Sebastian", "Vincent"],
+        "Hate": ["Dwarf", "Krobus", "Wizard"]
+    }
+}

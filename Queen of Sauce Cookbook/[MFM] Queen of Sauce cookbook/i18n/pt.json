@@ -1,0 +1,98 @@
+{ 
+    "DubMail-606": "Legumes à juliana em uma cama de arroz",
+    "TextMail-606": "Oi, @! ^^Você viu o novo programa de TV? A Rainha do Molho! É incrível! E a receita? Mal posso esperar para prová-la, mas eu não sei onde procurar pelas cenouras subterrâneas da lista de ingredientes. ^^Você pode encontrar algumas para mim? ^^- Leah %item quest 158641001 %%",
+    
+    "DubMail-648": "Leve, fresquinha e saudável",
+    "TextMail-648": "Olá @, ^^Considerando que você tem uma fazenda, acredito que você possa ter maionese caseira que é o ingrediente que estou procurando para fazer uma salada de repolho para o Harvey. ^Eu queria fazer algo doce para ele, mas \"Não é saudável\"...^^- Maru %item quest 158641002 %%",
+    
+    "DubMail-609": "Os rabanetes são tão crocantes",
+    "TextMail-609": "Bom dia, @, ^^Eu preciso de uma ajuda. Evelyn tem reclamado de falta de energia. Você pode preparar para ela uma Salada de Rabanetes com ingredientes orgânicos? ^^Eu acho que isso dará a ela a energia que ela precisa.^^- Harvey %item quest 158641003 %%",
+    
+    "DubMail-195": "Superfofinha.",
+    "TextMail-195": "Olá @! ^^Você sabe como fazer uma omelete? Eu gostaria de provar uma omelete feita por você... ^^Um dia desses eu ainda vou fazer a maior omelete que essa vila já viu, você vai ver!^^~Gus %item quest 158641004 %%",
+   
+    "DubMail-198": "Peixe cozido em uma cama de ervas",
+    "TextMail-198": "Olá, @, ^^Você conhece aquele programa de culinária, a Rainha do Molho? Todas as mulheres desse vale assistem...E todos os homens também, eu confesso. ^De qualquer maneira, eu queria fazer peixe cozido para o jantar da família e preciso de alguns peixes. ^Você pode pegá-los para mim? ^^- Demetrius %item quest 158641005 %%",
+    
+    "DubMail-211": "Panquecas fofinhas e macias",
+    "TextMail-211": "Oi!^^Mamãe diz que quando a gente não sabe como que faz alguma coisa, a gente pede pra quem sabe fazer fazer e paga a pessoa pelo trabalho que ela vai ter. Faz panquecas pra mamãe! ^^~Vincent ^Pode fazer, Eu pago por ele. - Sam %item quest 158641006 %%",
+
+    "DubMail-228": "Peixe e arroz enrolados em algas",
+    "TextMail-228": "Ei, @,^^Eu estava pensando em fazer a receita que eu vi de Rolinhos de Arroz. Quero ver se o Sebastian vai gostar deles.^^Você pode me trazer Algas Marinhas? ^^- Robin %item quest 158641007 %%",
+
+    "DubMail-216": "Uma baguete crocante",
+    "TextMail-216": "Oi, @, ^^Vou ser direta, eu preciso de pão! Um monte de pão... Entre o apetite do Vincent depois de brincar com a Jas e o do Sam e dos amigos dele depois do ensaio da banda, é muito pão pra fazer sanduíches.^Se você puder me fazer um monte eu agradeço muito, @!^^- Jodi %item quest 158641008 %%",
+  
+    "DubMail-229": "Acompanhada ou comida por si só",
+    "TextMail-229": "Oi, @! ^^Eu tenho uma excelente receita de Tacos de Peixe, mas eu não tenho Tortilhas. Eu preciso de milho para fazê-las. Você teria alguns milhos para me dar? ^^~Linus %item quest 158641009 %%",
+    
+    "DubMail-219": "Bem salgada",
+    "TextMail-219": "@, escute só! ^^Evelyn detesta Sopa de Trutas, mas eu gosto e estou querendo comer um pouco. Vou por o Alex para cozinhar pra mim, mas eu preciso de trutas para isso. ^Você pode pegar o peixe? O Alex disse que sabe como conseguir algas verdes.^^- George %item quest 158641010 %%",
+ 
+    "DubMail-208": "Doces e saborosos",
+    "TextMail-208": "Olá, @,^^Como está a fazenda?^^Ouça, Eu preciso de alguns Inhames para fazer uma sobremesa. Você pode me trazer alguns?^^~ Marnie %item quest 158641011 %%",
+   
+    "DubMail-605": "Muito refrescante",
+    "TextMail-605": "Oi @,^^Bem, já que você é fazendeiro e tem acesso aos ingredientes, você poderia me trazer umas Alcachofras? ^^Quero fazer um molho. Eu te compenso, prometo!^^~Clint %item quest 158641012 %%",
+  
+    "DubMail-604": "Uma delícia de feriado tradicional",
+    "TextMail-604": "Oi, @, ^^Eu preciso de um presente para a Jas. Você pode me ajudar?^^ Eu sei que ela gosta de bolos, mas eu sempre compro bolos pra ela. Você sabe fazer Pudim de ameixa? Ela gosta mais disso do que de chocolate!^^ -Shane %item quest 158641013 %%",
+   
+    "DubMail-220": "Rico e úmido, com uma camada bem grossa de glacê",
+    "TextMail-220": "Olá, @, ^Espero que tudo esteja bem com você e com sua fazenda. Não trabalhe demais. ^Eu preciso de ajuda com uma coisa boba!Ultimamente eu não estou tendo muito sucesso com os bolos que eu asso. Talvez seja por causa do barulho da TV do George ou do barulho que o Alex faz quando entra e sai de casa. ^Você pode assar um Bolo de Chocolate para mim? ^- Evelyn %item quest 158641014 %%",
+ 
+    "DubMail-608": "Sabor extremamente delicado, crosta seca e crocante",
+    "TextMail-608": "Oi,^^ Você pode me trazer uma abóbora? Nós vamos fazer a Torta de Abóboras favorita da Tia Marnie! Meu padrinho falou que eu podia te pedir^^ -Jas ^(a letra parece ser da Jas mesmo) %item quest 158641015 %%",
+    
+    "DubMail-612": "Doce o suficiente",
+    "TextMail-612": "Oi,^^Eu acho que o Vincent está chateado com o tempo que o Sam passa com nossa banda e eu queria dar a ele algo que ele goste. ^^ O Sam diz que ele gosta de Doce de Oxicoco. Você por acaso tem um pouco em sua fazenda? ^^- Sebastian %item quest 158641016 %%",
+ 
+    "DubMail-206": "Popular pelos motivos certos",
+    "TextMail-206": "Olá,  @! ^^É hora da Pizza! Eu pago o dobro desde que você encha bem ela de queijo!!! ^^Não me deixa esperando, hein?!^^- Pam %item quest 158641017 %%",
+ 
+    "DubMail-210": "Crocante e dourada",
+    "TextMail-210": "Olá @,^^Você sabe cozinhar, não sabe? Viu o programa de receitas? Eu não ligo pro que o Harvey fala de comida saudável. Eu amo alho-poró. E a maioria das pessoas nem come isso.^ Quero comer Batata Palha com o que quer que Evelyn faça para o almoço! Me traga um pouco, certo?^^- George %item quest 158641018 %%",
+ 
+    "DubMail-201": "Energia para conquistar o mundo",
+    "TextMail-201": "Olá!^^@, você pode me preparar um Café da Manhã Completo? ^^Eu quero tentar uma nova sequencia de exercícios e a recomendação para eles é uma alimentação robusta e eu não quero amolar a vovó com isso.^^~Alex %item quest 158641019 %%",
+
+    "DubMail-204": "Uma pequena refeição",
+    "TextMail-204": "Ei, @, ^^Eu preciso de boas energias e quero tentar aquela receita que passou na Rainha do Molho, sabe, o Almoço da Sorte?! ^Eu já consegui a Flor com a Evelyn, a Tortilha com a Jodi, mas ainda preciso do Pepino do Mar. você pode pescar um pra mim?^^- Caroline %item quest 158641020 %%",
+
+    "DubMail-209": "É insossa e oleosa",
+    "TextMail-209": "Olá, @, ^^Eu preciso de uma refeição de pescador, mas eu não pesco... Então... ^Você pode me trazer uma carpa-surpresa?^^- Pierre %item quest 158641021 %%",
+ 
+    "DubMail-731": "Uma rosquinha doce coberta com ácer",
+    "TextMail-731": "Oi.^^O Pierre não tem Xarope de Ácer, a minha mãe está brava com alguma coisa que o Vincent fez e tudo o que eu quero é comer Pão de Ácer. É tão doce! ^Daí eu pensei em pedir alguém pra fazer um pouco pra mim, boa ideia, não é? ^Você faz? (Eu compro todos que você fizer!)^^- Sam %item quest 158641022 %%",
+
+    "DubMail-221": "Tem pequenos doces de coração em cima",
+    "TextMail-221": "Oi, @!^^Eu estou tão feliz que a Rainha do Molho compartilhou a receita de Bolo Rosa! ^^Você viu o programa? Ela até disse o meu nome! ^^Sabe, agora eu preciso de um Melão!^^- Haley %item quest 158641023 %%",
+    
+    "DubMail-607": "Um rico sabor de floresta",
+    "TextMail-607": "@, bom dia! ^^  Sempre que eu vou acampar, eu me lembro que ursos podem aparecer para roubar comida. Então eu devo levar comidas que não os deixarão doentes. ^  Você pode me trazer Avelãs Torradas? Elas serão ideias para meu proximo acampamento. ^  Talvez eu te leve comigo um dia desses...^^~Emily %item quest 158641024 %%",
+    
+    "DubMail-610": "Uma combinação deliciosa de frutas de verão",
+    "TextMail-610": "Olá, @,^^Eu estou querendo fazer uma salada, mas uma de frutas! ^Você pode me ajudar a aumentar a variedade dessas frutas?^^ -Demetrius %item quest 158641025 %%",
+
+    "DubMail-611": "Não tem nada igual",
+    "TextMail-611": "@! ^^Você pode me trazer um montão de Amoras? ^Não, melhor! ^^Um bolo Mexido de Amoras?^^~Abigail %item quest 158641026 %%",
+    
+    "DubMail-732": "Achatados e fritos até ficarem dourados",
+    "TextMail-732": "Gentil @, ^^Eu estou sofrendo com uma falta de inspiração e estou certo de que preciso de uma comida especial para inspirar minhas musas...^^Você pode, por gentileza, cozinhar pra mim uns bolinhos de caranguejo? ^^~ Elliott^^PS: Use a receita apresentada na Rainha do Molho e NÃO MUDE NADA... As musas são muito conservadoras quando bolinhos de caranguejo estão envolvidos... %item quest 158641027 %%",
+    
+    "DubMail-649": "Um prato com samambaias salteadas.",
+    "TextMail-649": "Oi, @!^^Eu... será que você pode fazer para mim aquela receita de Risoto com Broto de Samambaia da Rainha do Molho? ^^- Clint %item quest 158641028 %%",
+    
+    "DubMail-651": "Possui efeito calmante",
+    "TextMail-651": "Ei, @!^^ Você tem um bom forno? O nosso não está funcionando muito bem e eu vi essa receita com papoulas! É a minha flor favorita e os bolinhos ficam absolutamente adoráveis! ^^Você poderia assar um pra mim? ^^- Penny %item quest 158641029 %%",
+   
+    "DubMail-730": "Uma receita secreta de família",
+    "TextMail-730": "Oi, @,^^Meu covo quebrou e eu quero fazer um Bisque de Lagosta. ^^Traz uma lagosta pra mim? ^^- Willy %item quest 158641030 %%",
+    
+    "DubMail-618": "Tomates assados em pão branco crocante",
+    "TextMail-618": "Oi, @! ^^Meus meninos amam torradas, mas eu queria fazer um café da manhã mais refinado para eles e eu vi, na Rainha do Molho, uma receita de brusquetas e pensei, por que não?! ^Você pode me trazer uns pães caseiros? Estou contando com você!^^- Jodi %item quest 158641031 %%",
+   
+    "DubMail-733": "Um aperitivo suntuoso",
+    "TextMail-733": "Olá, @,^^I tenho um jantar importante e sou eu quem vai levar os aperitivos... ^^Você pode me fazer alguns Coquetéis de Camarão? Não são muitos...^^- Lewis %item quest 158641032 %%"
+}
+    

@@ -1,0 +1,14 @@
+{
+	"Name": "[MFM] Queen of Sauce Recipes Quests",
+	"Author": "AeraDreamer",
+	"Version": "1.5.0",
+	"Description": "Adds quests based on the Queen of Sauce Recipes.",
+	"UniqueID": "AeraDreamer.QueenOfSauce-MFM",
+	"MinimumApiVersion": "3.8.0",
+	"UpdateKeys": ["Nexus:15864"],
+	"ContentPackFor": 
+	{
+		"UniqueID": "DIGUS.MailFrameworkMod",
+        "MinimumVersion": "1.10.1"
+	}
+}

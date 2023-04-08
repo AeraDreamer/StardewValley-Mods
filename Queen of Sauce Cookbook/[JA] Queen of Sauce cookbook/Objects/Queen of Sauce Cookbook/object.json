@@ -1,0 +1,24 @@
+{
+    "Name": "Queen of Sauce Cookbook",
+    "Price": 3000,
+    "Description": "..." ,
+    "Category": "Cooking",
+    "Edibility": -300,
+    "IsDefault": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+    "PurchasePrice": 3000,
+    "PurchaseRequirements": ["e 158649001"],
+    "ContextTags": 
+    [
+        "color_cyan"
+    ],
+    "GiftTastes":
+    {
+        "Love": [ "Caroline", "Emily", "Evelyn", "Gus", "Jodi", "Marnie", "Sandy" ],
+        "Like": [ "Clint", "Demetrius", "Haley", "Lewis", "Linus", "Pierre", "Robin", "Shane", "Willy"],
+        "Neutral": ["George", "Elliott", "Harvey", "Kent", "Leah", "Maru", "Pam", "Penny"],
+        "Dislike": ["Abigail", "Alex", "Jas", "Leo", "Sam", "Sebastian", "Vincent"],
+        "Hate": ["Dwarf", "Krobus", "Wizard"]
+    }
+}

@@ -1,0 +1,187 @@
+{
+  "config.Available.name": "Available",
+  "config.Available.description": "Choose when the Secret Cookbook becomes available to purchasing. Default: from Year 3.",
+  "config.Available.values.from Year 1": "from Year 1",
+  "config.Available.values.from Year 3": "from Year 3",
+  "config.Available.default": "from Year 3",
+  "config.section.Queen of Sauce Cookbook.name": "Queen of Sauce Cookbook",
+
+  "QoSc.name": "Queen of Sauce Cookbook",
+  "QoSc.description": "A collection of recipes from the Queen of Sauce secret cookbook. - Paperback",
+
+  "QoSe.name": "Queen of Sauce Cookbook=",
+  "QoSe.description": "A collection of recipes from the Queen of Sauce secret cookbook. This Exclusive Edition is a beautiful hardcover signed copy.",
+
+  "Mail-Presell": "Queen of Sauce's Secret Cookbook Presell",
+  "Mail-Presell.Text": "Dear Valued Customer, ^^In an extremely important exclusive pre-sale deal, Pierre's General Store will now carry a highly coveted item: ^ - The Exclusive Edition of the Secret Cookbook from the Queen of Sauce. ^If want to know the recipes before everyone else, this is your chance. ^^- Pierre ^Available on Tuesdays, Fry-days(!) and Saturdays.",
+
+  "Mail-Promo": "Queen of Sauce's Secret Cookbook - now available in a store near you!",
+  "Mail-Promo.Text": "Hello, @! ^^The Cookbook of the Queen of Sauce is already at Pierre's! ^^If you missed out on any of the show's recipes, this is your chance to have them TODAY instead of waiting for the re-runs to air. ^^- Pierre ^ The Exclusive Edition is available only on Tuesdays, Fry-days (!) and Saturdays.",
+
+  "Mail-Exclusive":"Queen of Sauce Cookbook - The Exclusive Edition",
+  "Mail-Exclusive.Text":"Hi, @! ^^In an extremely important exclusive deal, Pierre's General Store will now carry a highly coveted item: ^ - The Exclusive Edition of the Secret Cookbook from the Queen of Sauce. ^There is a limited number of this fine edition, this is your chance. ^^- Pierre ^Available on Tuesdays, Fry-days(!) and Saturdays.",
+  
+  "606.title": "Stir Fry",
+  "606.flavor": "Leah wants to taste the new recipe.",
+  "606.hint": "Bring her 2 Cave Carrots",
+  "606.reaction": "Thank you so much, I'm so excited about this recipe! I have a feeling I'm gonna love it!",
+
+  "648.title": "Coleslaw",
+  "648.flavor": "Maru wants to cook a healthy meal for Harvey.",
+  "648.hint": "Bring her 1 Mayonnaise",
+  "648.reaction": "Let me refrigerate this! Thanks!",
+
+  "609.title": "Radish Salad",
+  "609.flavor": "Harvey wants you to cook a healthy meal to give Evelyn more energy",
+  "609.hint": "Bring him 1 Radish Salad",
+  "609.reaction": "This looks so incredible I almost want to eat it myself!",
+
+  "195.title": "Omelet",
+  "195.flavor": "Gus wants a taste of your cooking so he can compare recipes.",
+  "195.hint": "Bring him 1 Omelet",
+  "195.reaction": "Interesting... The quality of your ingredients... When I start to do my super omelet, I hope you can provide me with some of your farm-fresh eggs!",
+
+  "198.title": "Baked Fish",
+  "198.flavor": "Lewis wants to make a special dinner and needs some fish",
+  "198.hint": "Bring him 2 Bream",
+  "198.reaction": "Good! Thank you, @!",
+
+  "211.title": "Pancakes",
+  "211.flavor": "Vincent wants to surprise his mom.",
+  "211.hint": "Bring him 1 dish of Pancakes",
+  "211.reaction": "Thanks! Mommy's gonna love it!",
+
+  "228.title": "Maki Roll",
+  "228.flavor": "Robin wants to try a new dish to see if Sebastian likes it.",
+  "228.hint": "Bring her 4 Seaweed",
+  "228.reaction": "I appreciate the favor, @. Let's see how he likes these maki rolls.",
+
+  "216.title": "Bread",
+  "216.flavor": "Jodi needs to feed the kids.",
+  "216.hint": "Bring her 10 Bread",
+  "216.reaction": "Thanks, @! This will help a lot!",
+
+  "229.title": "Tortilla",
+  "229.flavor": "Linus needs some corn to make fish tacos.",
+  "229.hint": "Bring him 2 Corn",
+  "229.reaction": "I'm gonna make the tacos and send one to you! Thank you!",
+
+  "219.title": "Trout Soup",
+  "219.flavor": "George wants to eat Trout Soup, but he's missing the trout.",
+  "219.hint": "Bring him 1 Rainbow Trout",
+  "219.reaction": "Finally! Now, where is Alex?",
+
+  "208.title": "Glazed Yams",
+  "208.flavor": "Marnie needs yams to make a dessert.",
+  "208.hint": "Bring her 3 Yam",
+  "208.reaction": "I knew I could count on you!",
+
+  "605.title": "Artichoke Dip",
+  "605.flavor": "Clint needs some artichokes to make his recipe.",
+  "605.hint": "Bring him 2 Artichoke",
+  "605.reaction": "Thanks! I'm so happy you could help me.",
+
+  "604.title": "Plum Pudding",
+  "604.flavor": "Shane is looking to make a special treat for his goddaughter.",
+  "604.hint": "Bring him 1 Plum Pudding",
+  "604.reaction": "Perfect! She's gonna love it!",
+
+  "220.title": "Chocolate Cake",
+  "220.flavor": "Evelyn wants you to bake a cake for her.",
+  "220.hint": "Bring her 1 Chocolate Cake",
+  "220.reaction": "Thank you so much, dear!",
+
+  "608.title": "Pumpkin Pie",
+  "608.flavor": "Jas is planning to surprise Marnie",
+  "608.hint": "Bring her 1 Pumpkin",
+  "608.reaction": "Aunt Marnie's gonna love it!",
+
+  "612.title": "Cranberry Candy",
+  "612.flavor": "Sebastian figured out a nice present for Vincent.",
+  "612.hint": "Bring him 1 Cranberry Candy",
+  "612.reaction": "That's it! He'll love it",
+
+  "206.title": "Pizza",
+  "206.flavor": "Pam's hungry for a cheese pizza.",
+  "206.hint": "Bring her 1 Pizza",
+  "206.reaction": "You'd better put tons of cheese on this! Looks tasty, kid. Thanks!",
+
+  "210.title": "Hashbrowns",
+  "210.flavor": "George asked for a complementary dish.",
+  "210.hint": "Bring him 1 Hashbrowns",
+  "210.reaction": "I bet that with some rice (and leeks) this'll be delicious!",
+
+  "201.title": "Complete Breakfast",
+  "201.flavor": "Alex needs a strong meal to prepare him for Gridball training season.",
+  "201.hint": "Bring him 1 Complete Breakfast",
+  "201.reaction": "Excellent! This will fuel me for a hard workout session.",
+
+  "204.title": "Lucky Lunch",
+  "204.flavor": "Caroline wants to try her luck with a new lunch.",
+  "204.hint": "Bring her 1 Sea Cucumber",
+  "204.reaction": "Oh. They aren't pretty, are they?! Well, thank you, @! I shall abide by the Queen's recipe.",
+
+  "209.title": "Carp Surprise",
+  "209.flavor": "Pierre wants to eat fish",
+  "209.hint": "Bring him a Carp Surprise",
+  "209.reaction": "Great! Too bad one can't grow fishes, right?",
+
+  "731.title": "Maple Bar",
+  "731.flavor": "Sam offers to buy a batch of baked of maple bars.",
+  "731.hint": "Bring him 4 Maple Bar",
+  "731.reaction": "Hey, @! You're the best!",
+
+  "221.title": "Pink Cake",
+  "221.flavor": "Haley needs ingredients for the cake.",
+  "221.hint": "Bring her 1 Melon",
+  "221.reaction": "That's it! You're the best! Now I can make my cake!",
+
+  "607.title": "Roasted Hazelnuts",
+  "607.flavor": "Emily needs a dish of Roasted Hazelnuts for the bears.",
+  "607.hint": "Bring her 1 Roasted Hazelnuts",
+  "607.reaction": "Thanks, @!",
+
+  "610.title": "Fruit Salad",
+  "610.flavor": "Demetrius",
+  "610.hint": "Bring him 1 Melon",
+  "610.reaction": "The missing fruit! ^I would put tomatoes, but Robin probably wouldn't agree that they belong in a fruit salad.",
+
+  "611.title": "Blackberry Cobbler",
+  "611.flavor": "Abigail asked for a Blackberry Cobbler",
+  "611.hint": "Bring her 1 Blackberry Cobbler",
+  "611.reaction": "Wow! Looks delicious!",
+
+  "732.title": "Crab Cakes",
+  "732.flavor": "Elliott will try to please his muses with food.",
+  "732.hint": "Bring him 2 Crab Cakes",
+  "732.reaction": "These look marvelous! Let's see if it works.",
+
+  "649.title": "Fiddlehead Risotto",
+  "649.flavor": "Clint asked for a not-so easy meal.",
+  "649.hint": "Bring him 1 Fiddlehead Risotto",
+  "649.reaction": "Thank you very much, @!",
+
+  "651.title": "Poppyseed Muffin",
+  "651.flavor": "Penny's oven is broken and she wishes to make muffins.",
+  "651.hint": "Bring her 1 Poppyseed Muffin",
+  "651.reaction": "Smells so good! And it looks delicious!",
+
+  "730.title": "Lobster Bisque",
+  "730.flavor": "Willy's Crab Pot is broken and he needs a Lobster.",
+  "730.hint": "Bring him 1 Lobster",
+  "730.reaction": "What are beaut! Thank you, @!",
+
+  "618.title": "Bruschetta",
+  "618.flavor": "Jodi wants to make a different kind of breakfast.",
+  "618.hint": "Bring her 4 Bread",
+  "618.reaction": "I think my boys will like it!",
+
+  "733.title": "Shrimp Cocktail",
+  "733.flavor": "Lewis needs some classy appetizers.",
+  "733.hint": "Bring him 6 Shrimp Cocktail",
+  "733.reaction": "Fine, Fine. Thank you.",
+
+  "Qos.BookBoughtPresell": "message \"I want to know all the recipes right away...\"",
+  "Qos.BookBought": "message \"I can't wait to see the recipes I don't know yet...\"",
+  "Qos.BookLearned": "message \"So many great recipes... I must cook them all!\""
+}

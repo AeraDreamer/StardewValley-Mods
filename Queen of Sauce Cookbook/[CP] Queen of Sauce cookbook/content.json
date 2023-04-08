@@ -1,0 +1,299 @@
+{
+  "Format": "1.28",
+
+  "ConfigSchema": 
+  {
+    "Available": 
+    {
+      "AllowValues": "from Year 1, from Year 3",
+      "Default": "from Year 3",
+      "Description": "Choose when the Secret Cookbook becames available to purchasing. Year 3 is default.",
+      "Section": "Queen of Sauce Cookbook"
+    }
+  },
+  "DynamicTokens": 
+  [
+    {
+        "Name": "QoS-Exclusive",
+        "Value": "{{spacechase0.jsonAssets/ObjectId: Queen of Sauce Exclusive Edition}}"
+    },
+    {
+      "Name": "QoS-Cookbook",
+      "Value": "{{spacechase0.jsonAssets/ObjectId: Queen of Sauce Cookbook}}"
+    }  
+  ],
+  "CustomLocations": 
+  [
+    {
+      "Name": "Custom_OddQoS",
+      "FromMapFile": "assets/OddQoS.tmx"
+    },
+    {
+      "Name": "Custom_EvenQoS",
+      "FromMapFile": "assets/EvenQoS.tmx"
+    }
+  ],
+
+  "Changes": 
+  [ 
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+      "Entries": 
+      {
+        "{{QoS-Cookbook}}" : "Queen of Sauce Cookbook/3000/-300/Basic/{{i18n:QoSc.name}}/{{i18n:QoSc.description}}/-1/0/-1/true/{{i18n:QoSc.type}}",
+        "{{QoS-Exclusive}}" : "Queen of Sauce Exclusive Edition/25000/-300/Basic/{{i18n:QoSe.name}}/{{i18n:QoSe.description}}/-1/0/-1/true/{{i18n:QoSe.type}}"
+      }
+    },
+    { 
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "158649000/M 0/l Promo.QoS.Presell/x Promo.QoS.Presell true": "null"
+      },
+      "When": { "Available":  "From Year 1" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": 
+      { 
+        "Promo.QoS.Presell":"{{i18n:Mail-Presell.Text}}[#]{{i18n:Mail-Presell}}"
+      },
+      "When": { "Available":  "From Year 1" }
+    },    
+    { 
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": 
+      {
+        "158649000/y 3/l Promo.QoS.Presell/l Promo.QoS.Exclusive/x Promo.QoS.Exclusive true": "null",
+        "158649001/y 3/l Promo.QoS.Presell/l Promo.QoS.Y3/x Promo.QoS.Y3 true": "null"
+      },
+      "When": { "Available":  "From Year 3" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries":
+      { 
+        "Promo.Qos.Exclusive": "{{i18n:Mail-Exclusive.Text}}[#]{{i18n:Mail-Exclusive}}",
+        "Promo.QoS.Y3":"{{i18n:Mail-Promo.Text}}[#]{{i18n:Mail-Promo}}"
+      },
+      "When": { "Available":  "From Year 3" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Quests",
+      "Entries": 
+      {
+        "158641001": "ItemDelivery/{{i18n:606.title}}/{{i18n:606.flavor}}/{{i18n:606.hint}}/Leah 78 2/-1/275/-1/true/{{i18n:606.reaction}}",
+        "158641002": "ItemDelivery/{{i18n:648.title}}/{{i18n:648.flavor}}/{{i18n:648.hint}}/Maru 306 1/-1/200/-1/true/{{i18n:648.reaction}}",
+        "158641003": "ItemDelivery/{{i18n:609.title}}/{{i18n:609.flavor}}/{{i18n:609.hint}}/Harvey 609 1/-1/300/-1/true/{{i18n:609.reaction}}",
+        "158641004": "ItemDelivery/{{i18n:195.title}}/{{i18n:195.flavor}}/{{i18n:195.hint}}/Gus 195 1/-1/0150/-1/true/{{i18n:195.reaction}}",
+        "158641005": "ItemDelivery/{{i18n:198.title}}/{{i18n:198.flavor}}/{{i18n:198.hint}}/Lewis 132 2/-1/100/-1/true/{{i18n:198.reaction}}",
+        "158641006": "ItemDelivery/{{i18n:211.title}}/{{i18n:211.flavor}}/{{i18n:211.hint}}/Vincent 211 1/-1/100/-1/true/{{i18n:211.reaction}}",
+        "158641007": "ItemDelivery/{{i18n:228.title}}/{{i18n:228.flavor}}/{{i18n:228.hint}}/Robin 152 4/-1/100/-1/true/{{i18n:228.reaction}}",
+        "158641008": "ItemDelivery/{{i18n:216.title}}/{{i18n:216.flavor}}/{{i18n:216.hint}}/Jodi 216 10/-1/600/-1/true/{{i18n:216.reaction}}",
+        "158641009": "ItemDelivery/{{i18n:229.title}}/{{i18n:229.flavor}}/{{i18n:229.hint}}/Linus 270 2/-1/500/-1/true/{{i18n:229.reaction}}",
+        "158641010": "ItemDelivery/{{i18n:219.title}}/{{i18n:219.flavor}}/{{i18n:219.hint}}/George 138 1/-1/250/-1/true/{{i18n:219.reaction}}",
+        "158641011": "ItemDelivery/{{i18n:208.title}}/{{i18n:208.flavor}}/{{i18n:208.hint}}/Marnie 280 3/-1/500/-1/true/{{i18n:208.reaction}}",
+        "158641012": "ItemDelivery/{{i18n:605.title}}/{{i18n:605.flavor}}/{{i18n:605.hint}}/Clint 274 2/-1/500/-1/true/{{i18n:605.reaction}}",
+        "158641013": "ItemDelivery/{{i18n:604.title}}/{{i18n:604.flavor}}/{{i18n:604.hint}}/Shane 604 1/-1/400/-1/true/{{i18n:604.reaction}}",
+        "158641014": "ItemDelivery/{{i18n:220.title}}/{{i18n:220.flavor}}/{{i18n:220.hint}}/Evelyn 220 1/-1/300/-1/true/{{i18n:220.reaction}}",
+        "158641015": "ItemDelivery/{{i18n:608.title}}/{{i18n:608.flavor}}/{{i18n:608.hint}}/Jas 276 1/-1/260/-1/true/{{i18n:608.reaction}}",
+        "158641016": "ItemDelivery/{{i18n:612.title}}/{{i18n:612.flavor}}/{{i18n:612.hint}}/Sebastian 612 1/-1/175/-1/true/{{i18n:612.reaction}}",
+        "158641017": "ItemDelivery/{{i18n:206.title}}/{{i18n:206.flavor}}/{{i18n:206.hint}}/Pam 206 1/-1/600/-1/true/{{i18n:206.reaction}}",
+        "158641018": "ItemDelivery/{{i18n:210.title}}/{{i18n:210.flavor}}/{{i18n:210.hint}}/George 210 1/-1/120/-1/true/{{i18n:210.reaction}}",
+        "158641019": "ItemDelivery/{{i18n:201.title}}/{{i18n:201.flavor}}/{{i18n:201.hint}}/Alex 201 1/-1/350/-1/true/{{i18n:201.reaction}}",
+        "158641020": "ItemDelivery/{{i18n:204.title}}/{{i18n:204.flavor}}/{{i18n:204.hint}}/Caroline 154 1/-1/80/-1/true/{{i18n:204.reaction}}",
+        "158641021": "ItemDelivery/{{i18n:209.title}}/{{i18n:209.flavor}}/{{i18n:209.hint}}/Pierre 209 1/-1/200/-1/true/{{i18n:209.reaction}}",
+        "158641022": "ItemDelivery/{{i18n:731.title}}/{{i18n:731.flavor}}/{{i18n:731.hint}}/Sam 731 4/-1/1200/-1/true/{{i18n:731.reaction}}",
+        "158641023": "ItemDelivery/{{i18n:221.title}}/{{i18n:221.flavor}}/{{i18n:221.hint}}/Haley 254 1/-1/250/-1/true/{{i18n:221.reaction}}",
+        "158641024": "ItemDelivery/{{i18n:607.title}}/{{i18n:607.flavor}}/{{i18n:607.hint}}/Emily 607 1/-1/260/-1/true/{{i18n:607.reaction}}",
+        "158641025": "ItemDelivery/{{i18n:610.title}}/{{i18n:610.flavor}}/{{i18n:610.hint}}/Demetrius 254 1/-1/250/-1/true/{{i18n:610.reaction}}",
+        "158641026": "ItemDelivery/{{i18n:611.title}}/{{i18n:611.flavor}}/{{i18n:611.hint}}/Abigail 611 1/-1/260/-1/true/{{i18n:611.reaction}}",
+        "158641027": "ItemDelivery/{{i18n:732.title}}/{{i18n:732.flavor}}/{{i18n:732.hint}}/Elliott 732 2/-1/550/-1/true/{{i18n:732.reaction}}",
+        "158641028": "ItemDelivery/{{i18n:649.title}}/{{i18n:649.flavor}}/{{i18n:649.hint}}/Clint 649 1/-1/350/-1/true/{{i18n:649.reaction}}",
+        "158641029": "ItemDelivery/{{i18n:651.title}}/{{i18n:651.flavor}}/{{i18n:651.hint}}/Penny 651 1/-1/250/-1/true/{{i18n:651.reaction}}",
+        "158641030": "ItemDelivery/{{i18n:730.title}}/{{i18n:730.flavor}}/{{i18n:730.hint}}/Willy 715 1/-1/220/-1/true/{{i18n:730.reaction}}",
+        "158641031": "ItemDelivery/{{i18n:618.title}}/{{i18n:618.flavor}}/{{i18n:618.hint}}/Jodi 216 4/-1/240/-1/true/{{i18n:618.reaction}}",
+        "158641032": "ItemDelivery/{{i18n:733.title}}/{{i18n:733.flavor}}/{{i18n:733.hint}}/Lewis 733 6/-1/1000/-1/true/{{i18n:733.reaction}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries":
+      {
+        "158640000/i {{QoS-Exclusive}}/k 158640000": "continue/45 57/farmer 45 57 2/pause 400/showFrame 57/addObject 45 55 {{QoS-Exclusive}}/pause 400/playSound getNewSpecialItem/pause 800/{{i18n:QoS.BookBoughtPresell}}/removeTemporarySprites/end position 46 57",
+        "158640000/i {{QoS-Cookbook}}/k 158640000": "continue/45 57/farmer 45 57 2/pause 400/showFrame 57/addObject 45 55 {{QoS-Cookbook}}/pause 400/playSound getNewSpecialItem/pause 800/{{i18n:QoS.BookBought}}/removeTemporarySprites/end position 46 57"
+      }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640001/l QoS.606/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Stir Fry/addObject 2 2 606/addObject 11 2 606/addObject 2 6 78/addObject 4 3 404/addObject 7 4 250/addObject 6 8 247/addObject 17 9 248/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640002/l QoS.648/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Coleslaw/addObject 2 2 648/addObject 17 2 648/addObject 12 5 266/addObject 15 3 419/addObject 17 6 306/addObject 13 8 023/addObject 7 9 020/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+    "Action":"EditData",
+    "Target":"Data/Events/Town",
+    "Entries": { "158640003/l QoS.609/e 158640000": "continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Radish Salad/addObject 2 2 609/addObject 11 2 609/addObject 2 6 247/addObject 4 3 419/addObject 7 4 264/addObject 6 8 023/addObject 17 9 399/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640004/l QoS.195/e 158640000": "continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Omelet/addObject 2 2 195/addObject 17 2 195/addObject 12 5 176/addObject 15 3 184/addObject 17 6 023/addObject 13 8 023/addObject 7 9 424/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640005/l QoS.198/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Baked Fish/addObject 2 2 198/addObject 11 2 198/addObject 2 6 145/addObject 4 3 132/addObject 7 4 246/addObject 6 8 023/addObject 17 9 259/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640006/l QoS.211/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Pancakes/addObject 2 2 211/addObject 17 2 211/addObject 12 5 246/addObject 15 3 176/addObject 17 6 023/addObject 13 8 023/addObject 7 9 724/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640007/l QoS.228/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Maki Roll/addObject 2 2 228/addObject 11 2 228/addObject 2 6 145/addObject 4 3 152/addObject 7 4 423/addObject 6 8 023/addObject 17 9 271/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640008/l QoS.216/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Bread/addObject 2 2 216/addObject 17 2 216/addObject 12 5 023/addObject 15 3 246/addObject 17 6 023/addObject 13 8 023/addObject 7 9 344/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640009/l QoS.229/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Tortilla/addObject 2 2 229/addObject 11 2 229/addObject 2 6 023/addObject 4 3 023/addObject 7 4 270/addObject 6 8 023/addObject 17 9 487/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640010/l QoS.219/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Trout Soup/addObject 2 2 219/addObject 17 2 219/addObject 12 5 138/addObject 15 3 023/addObject 17 6 153/addObject 13 8 023/addObject 7 9 260/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640011/l QoS.208/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Glazed Yams/addObject 2 2 208/addObject 11 2 208/addObject 2 6 023/addObject 4 3 280/addObject 7 4 023/addObject 6 8 245/addObject 17 9 416/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640012/l QoS.605/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Artichoke Dip/addObject 2 2 605/addObject 17 2 605/addObject 12 5 274/addObject 15 3 023/addObject 17 6 184/addObject 13 8 023/addObject 7 9 617/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640013/l QoS.604/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Plum Pudding/addObject 2 2 604/addObject 11 2 604/addObject 2 6 406/addObject 4 3 246/addObject 7 4 406/addObject 6 8 245/addObject 17 9 595/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640014/l QoS.220/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Chocolate Cake/addObject 2 2 220/addObject 17 2 220/addObject 12 5 246/addObject 15 3 245/addObject 17 6 176/addObject 13 8 023/addObject 7 9 615/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640015/l QoS.608/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Pumpkin Pie/addObject 2 2 608/addObject 11 2 608/addObject 2 6 276/addObject 4 3 246/addObject 7 4 184/addObject 6 8 245/addObject 17 9 373/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640016/l QoS.612/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Cranberry Candy/addObject 2 2 612/addObject 17 2 612/addObject 12 5 282/addObject 15 3 613/addObject 17 6 245/addObject 13 8 023/addObject 7 9 613/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640017/l QoS.206/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Pizza/addObject 2 2 206/addObject 11 2 206/addObject 2 6 246/addObject 4 3 256/addObject 7 4 023/addObject 6 8 424/addObject 17 9 346/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640018/l QoS.210/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Hashbrowns/addObject 2 2 210/addObject 17 2 210/addObject 12 5 023/addObject 15 3 192/addObject 17 6 023/addObject 13 8 247/addObject 7 9 240/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640019/l QoS.201/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Complete Breakfast/addObject 2 2 201/addObject 11 2 201/addObject 2 6 194/addObject 4 3 184/addObject 7 4 210/addObject 6 8 211/addObject 17 9 351/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640020/l QoS.204/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Lucky Lunch/addObject 2 2 204/addObject 17 2 204/addObject 12 5 154/addObject 15 3 023/addObject 17 6 229/addObject 13 8 597/addObject 7 9 080/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640021/l QoS.209/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Carp Surprise/addObject 2 2 209/addObject 11 2 209/addObject 2 6 142/addObject 4 3 142/addObject 7 4 142/addObject 6 8 142/addObject 17 9 269/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640022/l QoS.731/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Maple Bar/addObject 2 2 731/addObject 17 2 731/addObject 12 5 724/addObject 15 3 245/addObject 17 6 023/addObject 13 8 246/addObject 7 9 787/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640023/l QoS.221/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Pink Cake/addObject 2 2 221/addObject 11 2 221/addObject 2 6 254/addObject 4 3 246/addObject 7 4 245/addObject 6 8 176/addObject 17 9 638/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640024/l QoS.607/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Roasted Hazelnuts/addObject 2 2 607/addObject 17 2 607/addObject 12 5 408/addObject 15 3 408/addObject 17 6 408/addObject 13 8 023/addObject 7 9 403/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640025/l QoS.610/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Fruit Salad/addObject 2 2 610/addObject 11 2 610/addObject 2 6 258/addObject 4 3 254/addObject 7 4 634/addObject 6 8 023/addObject 17 9 268/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640026/l QoS.611/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Blackberry Cobbler/addObject 2 2 611/addObject 17 2 611/addObject 12 5 410/addObject 15 3 245/addObject 17 6 246/addObject 13 8 023/addObject 7 9 296/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640027/l QoS.732/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Crab Cakes/addObject 2 2 732/addObject 11 2 732/addObject 2 6 717/addObject 4 3 246/addObject 7 4 176/addObject 6 8 247/addObject 17 9 710/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640028/l QoS.649/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Fiddlehead Risotto/addObject 2 2 649/addObject 17 2 649/addObject 12 5 247/addObject 15 3 259/addObject 17 6 248/addObject 13 8 023/addObject 7 9 772/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640029/l QoS.651/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Poppyseed Muffin/addObject 2 2 651/addObject 11 2 651/addObject 2 6 376/addObject 4 3 246/addObject 7 4 245/addObject 6 8 023/addObject 17 9 431/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640030/l QoS.730/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Lobster Bisque/addObject 2 2 730/addObject 17 2 730/addObject 12 5 715/addObject 15 3 023/addObject 17 6 184/addObject 13 8 023/addObject 7 9 739/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640031/l QoS.618/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_OddQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Bruschetta/addObject 2 2 618/addObject 11 2 618/addObject 2 6 216/addObject 4 3 023/addObject 7 4 247/addObject 6 8 256/addObject 17 9 350/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+      "Action":"EditData",
+      "Target":"Data/Events/Town",
+      "Entries": { "158640032/l QoS.733/e 158640000":"continue/45 57/farmer 45 57 2/skippable/changeToTemporaryMap Custom_EvenQoS/warp farmer 1 16/viewport 9 5/addCookingRecipe Shrimp Cocktail/addObject 2 2 733/addObject 17 2 733/addObject 12 5 256/addObject 15 3 720/addObject 17 6 016/addObject 13 8 023/addObject 7 9 348/playSound newRecipe/pause 2000/end position 46 57" }
+    },
+    {
+    "Action":"EditData",
+    "Target":"Data/Events/Town",
+    "Entries": { "158640033/e 158640000":"continue/45 57/farmer 45 57 2/{{i18n:QoS.BookLearned}}/playSound backpackIN/end position 45 57" }
+    }       
+  ]
+}

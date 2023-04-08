@@ -1,0 +1,643 @@
+[
+	{
+		"Id": "QoS.606",
+		"GroupId": null,
+		"Title": "DubMail-606",
+		"Text": "TextMail-606",
+		"Repeatable": false,
+		"RecipeKnown": ["Stir Fry"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.606-after",
+		"GroupId": null,
+		"Title": "DubMail-606",
+		"Text": "TextMail-606",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.606"],
+		"Days": [1],
+		"RecipeKnown": ["Stir Fry"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.648",
+		"GroupId": null,
+		"Title": "DubMail-648",
+		"Text": "TextMail-648",
+		"Repeatable": false,
+		"RecipeKnown": ["Coleslaw"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.648-after",
+		"GroupId": null,
+		"Title": "DubMail-648",
+		"Text": "TextMail-648",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.648"], 
+		"Days": [2],  
+		"RecipeKnown": ["Coleslaw"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.609",
+		"GroupId": null,
+		"Title": "DubMail-609",
+		"Text": "TextMail-609",
+		"Repeatable": false,
+		"RecipeKnown": ["Radish Salad"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.609-after",
+		"GroupId": null,
+		"Title": "DubMail-609",
+		"Text": "TextMail-609",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.609"], 
+		"Days": [3],  
+		"RecipeKnown": ["Radish Salad"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.195",
+		"GroupId": null,
+		"Title": "DubMail-195",
+		"Text": "TextMail-195",
+		"Repeatable": false,
+		"RecipeKnown": ["Omelet"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.195-after",
+		"GroupId": null,
+		"Title": "DubMail-195",
+		"Text": "TextMail-195",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.195"], 
+		"Days": [4],  
+		"RecipeKnown": ["Omelet"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.198",
+		"GroupId": null,
+		"Title": "DubMail-198",
+		"Text": "TextMail-198",
+		"Repeatable": false,
+		"RecipeKnown": ["Baked Fish"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.198-after",
+		"GroupId": null,
+		"Title": "DubMail-198",
+		"Text": "TextMail-198",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.198"], 
+		"Days": [5],  
+		"RecipeKnown": ["Baked Fish"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.211",
+		"GroupId": null,
+		"Title": "DubMail-211",
+		"Text": "TextMail-211",
+		"Repeatable": false,
+		"RecipeKnown": ["Pancakes"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.211-after",
+		"GroupId": null,
+		"Title": "DubMail-211",
+		"Text": "TextMail-211",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.211"], 
+		"Days": [6],  
+		"RecipeKnown": ["Pancakes"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.228",
+		"GroupId": null,
+		"Title": "DubMail-228",
+		"Text": "TextMail-228",
+		"Repeatable": false,
+		"RecipeKnown": ["Maki Roll"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.228-after",
+		"GroupId": null,
+		"Title": "DubMail-228",
+		"Text": "TextMail-228",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.228"], 
+		"Days": [7],  
+		"RecipeKnown": ["Maki Roll"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.216",
+		"GroupId": null,
+		"Title": "DubMail-216",
+		"Text": "TextMail-216",
+		"Repeatable": false,
+		"RecipeKnown": ["Bread"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.216-after",
+		"GroupId": null,
+		"Title": "DubMail-216",
+		"Text": "TextMail-216",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.216"], 
+		"Days": [8],  
+		"RecipeKnown": ["Bread"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.229",
+		"GroupId": null,
+		"Title": "DubMail-229",
+		"Text": "TextMail-229",
+		"Repeatable": false,
+		"RecipeKnown": ["Tortilla"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.229-after",
+		"GroupId": null,
+		"Title": "DubMail-229",
+		"Text": "TextMail-229",
+		"Repeatable": false, 
+		"MailNotReceived": ["QoS.229"], 
+		"Days": [9], 
+		"RecipeKnown": ["Tortilla"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.219",
+		"GroupId": null,
+		"Title": "DubMail-219",
+		"Text": "TextMail-219",
+		"Repeatable": false,
+		"RecipeKnown": ["Trout Soup"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.219-after",
+		"GroupId": null,
+		"Title": "DubMail-219",
+		"Text": "TextMail-219",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.219"], 
+		"Days": [10],
+		"RecipeKnown": ["Trout Soup"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.208",
+		"GroupId": null,
+		"Title": "DubMail-208",
+		"Text": "TextMail-208",
+		"Repeatable": false,
+		"RecipeKnown": ["Glazed Yams"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.208-after",
+		"GroupId": null,
+		"Title": "DubMail-208",
+		"Text": "TextMail-208",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.208"], 
+		"Days": [11],  
+		"RecipeKnown": ["Glazed Yams"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.605",
+		"GroupId": null,
+		"Title": "DubMail-605",
+		"Text": "TextMail-605",
+		"Repeatable": false,
+		"RecipeKnown": ["Artichoke Dip"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.605-after",
+		"GroupId": null,
+		"Title": "DubMail-605",
+		"Text": "TextMail-605",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.605"], 
+		"Days": [12],  
+		"RecipeKnown": ["Artichoke Dip"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.604",
+		"GroupId": null,
+		"Title": "DubMail-604",
+		"Text": "TextMail-604",
+		"Repeatable": false,
+		"RecipeKnown": ["Plum Pudding"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.604-after",
+		"GroupId": null,
+		"Title": "DubMail-604",
+		"Text": "TextMail-604",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.604"], 
+		"Days": [13],  
+		"RecipeKnown": ["Plum Pudding"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.220",
+		"GroupId": null,
+		"Title": "DubMail-220",
+		"Text": "TextMail-220",
+		"Repeatable": false,
+		"RecipeKnown": ["Chocolate Cake"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.220-after",
+		"GroupId": null,
+		"Title": "DubMail-220",
+		"Text": "TextMail-220",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.220"], 
+		"Days": [14],   
+		"RecipeKnown": ["Chocolate Cake"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.608",
+		"GroupId": null,
+		"Title": "DubMail-608",
+		"Text": "TextMail-608",
+		"Repeatable": false,
+		"RecipeKnown": ["Pumpkin Pie"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.608-after",
+		"GroupId": null,
+		"Title": "DubMail-608",
+		"Text": "TextMail-608",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.608"], 
+		"Days": [15],  
+		"RecipeKnown": ["Pumpkin Pie"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.612",
+		"GroupId": null,
+		"Title": "DubMail-612",
+		"Text": "TextMail-612",
+		"Repeatable": false,
+		"RecipeKnown": ["Cranberry Candy"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.612-after",
+		"GroupId": null,
+		"Title": "DubMail-612",
+		"Text": "TextMail-612",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.612"], 
+		"Days": [16],  
+		"RecipeKnown": ["Cranberry Candy"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.206",
+		"GroupId": null,
+		"Title": "DubMail-206",
+		"Text": "TextMail-206",
+		"Repeatable": false,
+		"RecipeKnown": ["Pizza"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.206-after",
+		"GroupId": null,
+		"Title": "DubMail-206",
+		"Text": "TextMail-206",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.206"], 
+		"Days": [16],  
+		"RecipeKnown": ["Pizza"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.210",
+		"GroupId": null,
+		"Title": "DubMail-210",
+		"Text": "TextMail-210",
+		"Repeatable": false,
+		"RecipeKnown": ["Hashbrowns"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.210-after",
+		"GroupId": null,
+		"Title": "DubMail-210",
+		"Text": "TextMail-210",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.210"], 
+		"Days": [17],  
+		"RecipeKnown": ["Hashbrowns"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.201",
+		"GroupId": null,
+		"Title": "DubMail-201",
+		"Text": "TextMail-201",
+		"Repeatable": false,
+		"RecipeKnown": ["Complete Breakfast"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.201-after",
+		"GroupId": null,
+		"Title": "DubMail-201",
+		"Text": "TextMail-201",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.201"], 
+		"Days": [17], 
+		"RecipeKnown": ["Complete Breakfast"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.204",
+		"GroupId": null,
+		"Title": "DubMail-204",
+		"Text": "TextMail-204",
+		"Repeatable": false,
+		"RecipeKnown": ["Lucky Lunch"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.204-after",
+		"GroupId": null,
+		"Title": "DubMail-204",
+		"Text": "TextMail-204",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.204"], 
+		"Days": [18],  
+		"RecipeKnown": ["Lucky Lunch"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.209",
+		"GroupId": null,
+		"Title": "DubMail-209",
+		"Text": "TextMail-209",
+		"Repeatable": false,
+		"RecipeKnown": ["Carp Surprise"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.209-after",
+		"GroupId": null,
+		"Title": "DubMail-209",
+		"Text": "TextMail-209",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.209"], 
+		"Days": [18],  
+		"RecipeKnown": ["Carp Surprise"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.731",
+		"GroupId": null,
+		"Title": "DubMail-731",
+		"Text": "TextMail-731",
+		"Repeatable": false,
+		"RecipeKnown": ["Maple Bar"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.731-after",
+		"GroupId": null,
+		"Title": "DubMail-731",
+		"Text": "TextMail-731",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.731"], 
+		"Days": [19],
+		"RecipeKnown": ["Maple Bar"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.221",
+		"GroupId": null,
+		"Title": "DubMail-221",
+		"Text": "TextMail-221",
+		"Repeatable": false,
+		"RecipeKnown": ["Pink Cake"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.221-after",
+		"GroupId": null,
+		"Title": "DubMail-221",
+		"Text": "TextMail-221",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.221"], 
+		"Days": [20],  
+		"RecipeKnown": ["Pink Cake"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.607",
+		"GroupId": null,
+		"Title": "DubMail-607",
+		"Text": "TextMail-607",
+		"Repeatable": false,
+		"RecipeKnown": ["Roasted Hazelnuts"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.607-after",
+		"GroupId": null,
+		"Title": "DubMail-607",
+		"Text": "TextMail-607",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.607"], 
+		"Days": [20],  
+		"RecipeKnown": ["Roasted Hazelnuts"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.610",
+		"GroupId": null,
+		"Title": "DubMail-610",
+		"Text": "TextMail-610",
+		"Repeatable": false,
+		"RecipeKnown": ["Fruit Salad"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.610-after",
+		"GroupId": null,
+		"Title": "DubMail-610",
+		"Text": "TextMail-610",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.610"], 
+		"Days": [21],  
+		"RecipeKnown": ["Fruit Salad"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.611",
+		"GroupId": null,
+		"Title": "DubMail-611",
+		"Text": "TextMail-611",
+		"Repeatable": false,
+		"RecipeKnown": ["Blackberry Cobbler"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.611-after",
+		"GroupId": null,
+		"Title": "DubMail-611",
+		"Text": "TextMail-611",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.611"], 
+		"Days": [22],  
+		"RecipeKnown": ["Blackberry Cobbler"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.732",
+		"GroupId": null,
+		"Title": "DubMail-732",
+		"Text": "TextMail-732",
+		"Repeatable": false,
+		"RecipeKnown": ["Crab Cakes"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.732-after",
+		"GroupId": null,
+		"Title": "DubMail-732",
+		"Text": "TextMail-732",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.732"], 
+		"Days": [23],  
+		"RecipeKnown": ["Crab Cakes"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.649",
+		"GroupId": null,
+		"Title": "DubMail-649",
+		"Text": "TextMail-649",
+		"Repeatable": false,
+		"RecipeKnown": ["Fiddlehead Risotto"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.649-after",
+		"GroupId": null,
+		"Title": "DubMail-649",
+		"Text": "TextMail-649",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.649"], 
+		"Days": [24],  
+		"RecipeKnown": ["Fiddlehead Risotto"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.651",
+		"GroupId": null,
+		"Title": "DubMail-651",
+		"Text": "TextMail-651",
+		"Repeatable": false,
+		"RecipeKnown": ["Poppyseed Muffin"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.651-after",
+		"GroupId": null,
+		"Title": "DubMail-651",
+		"Text": "TextMail-651",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.651"], 
+		"Days": [25],  
+		"RecipeKnown": ["Poppyseed Muffin"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.730",
+		"GroupId": null,
+		"Title": "DubMail-730",
+		"Text": "TextMail-730",
+		"Repeatable": false,
+		"RecipeKnown": ["Lobster Bisque"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.730-after",
+		"GroupId": null,
+		"Title": "DubMail-730",
+		"Text": "TextMail-730",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.730"], 
+		"Days": [26],  
+		"RecipeKnown": ["Lobster Bisque"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.618",
+		"GroupId": null,
+		"Title": "DubMail-618",
+		"Text": "TextMail-618",
+		"Repeatable": false,
+		"RecipeKnown": ["Bruschetta"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.618-after",
+		"GroupId": null,
+		"Title": "DubMail-618",
+		"Text": "TextMail-618",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.618"], 
+		"Days": [27],  
+		"RecipeKnown": ["Bruschetta"],
+		"EventsSeen": [158640000]
+	},
+	{
+		"Id": "QoS.733",
+		"GroupId": null,
+		"Title": "DubMail-733",
+		"Text": "TextMail-733",
+		"Repeatable": false,
+		"RecipeKnown": ["Shrimp Cocktail"],
+		"EventsNotSeen": [158640000]
+	},
+	{
+		"Id": "QoS.733-after",
+		"GroupId": null,
+		"Title": "DubMail-733",
+		"Text": "TextMail-733",
+		"Repeatable": false,
+		"MailNotReceived": ["QoS.733"], 
+		"Days": [28],  
+		"RecipeKnown": ["Shrimp Cocktail"],
+		"EventsSeen": [158640000]
+	}
+
+]
